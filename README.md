@@ -14,4 +14,4 @@ This Docker image will download a Open Street Map region as xml from [http://ove
 
 replace `BBOX=11.9,46.3,12.2,46.7` with the desired West, South, East, North bounding box.
 
-`docker run -it -e BBOX=11.9,46.3,12.2,46.7 -v ${PWD}/data:/data dolomate:get-osm-region`
+`docker run -it -e BBOX=11.9,46.3,12.2,46.7 -v ${PWD}/data:/data dolomate/get-osm-region`
